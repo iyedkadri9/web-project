@@ -4,9 +4,11 @@ body{
     background-size: cover;
 }
 img{
-    width: 30%;
+    width: 27%;
     border-radius: 12px 4px 4px 0px;
     margin: 20px;
+    box-shadow: 8px 8px 8px black;
+
 }
 p{
     padding: 20px;
@@ -15,13 +17,6 @@ p{
 }
 a{
     
-}
-footer{
-
-    border-radius: 5px;
-    padding: 15px;
-    width: 100%;
-    margin-bottom: 0px;
 }
 h1{
     margin-top: 20px;
@@ -36,4 +31,56 @@ video{
     width: 50%;
     position :relative;
     left: 25%;
+    box-shadow: 8px 8px 8px black;
+    border-radius: 12px 4px 4px 0px;
+}
+footer {
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    margin: 30px auto 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+footer h4 {
+    margin: 0 0 15px;
+    color: dimgrey;
+    font-size: 18px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #222;
+    text-decoration: underline;
+}
+
+footer span {
+    margin-left: 10px;
+    color: #777;
+}
+h2{
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+
 }
